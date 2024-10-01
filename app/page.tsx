@@ -349,7 +349,7 @@ export default function LandingPage() {
               size="lg" 
               variant="outline" 
               className="bg-transparent text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500] mb-4"
-              onClick={() => window.open('https://axicom.vercel.app/', '_blank')}
+              onClick={() => window.open('https://www.alphadhad.com/buyax/', '_blank')}
             >
               {content.hero.cta}
             </Button>
@@ -459,7 +459,7 @@ export default function LandingPage() {
               size="lg" 
               variant="outline" 
               className="bg-transparent text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
-              onClick={() => window.open('https://axicom.vercel.app/', '_blank')}
+              onClick={() => window.open('https://www.alphadhad.com/buyax/', '_blank')}
             >
               {content.hero.cta}
             </Button>
