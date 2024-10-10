@@ -22,8 +22,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { GlobeIcon } from 'lucide-react'
-
 const BackgroundEffect = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
