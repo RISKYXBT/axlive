@@ -14,7 +14,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import CountdownTimer from '@/components/ui/CountdownTimer'
 import * as React from "react"
 import {
   DropdownMenu,
