@@ -387,20 +387,45 @@ export default function LandingPage() {
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl mb-10">
             {content.hero.subtitle}
           </p>
+          {/* Block 1 */}
           <div className="flex flex-col items-center mb-36">
-            <CountdownTimer />
-            <div className="mt-8">
+            <div className="flex flex-col items-center">
+              <p className="text-yellow-400 text-2xl font-bold mb-8">
+                مجتمع الفــاضـــاد x حصري لملاك عملة AX فقط .. اذا كنت منهم ، قم بربط محفظتك عن طريق بوت التيليجرام
+              </p>
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="bg-transparent text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
-                onClick={() => window.open('https://www.alphadhad.com/buyax/', '_blank')}
+                className="bg-[#008000] text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
+                onClick={() => window.open('https://t.me/Alphadhad_X_Token_bot/', '_blank')}
               >
                 {content.hero.cta}
               </Button>
             </div>
           </div>
-          
+
+          {/* Block 2 (modified with iframe) */}
+          {/*<div className="flex flex-col items-center mb-36">
+            <div className="flex flex-col items-center">
+              <p className="text-white text-2xl font-bold mb-8">
+                لشــراء عملة AX ، يمكنك استخدام المنصة اللامركزية Stonfi من خلال النافذة ادناه
+              </p>
+              <div className="w-full max-w-[600px] min-w-[300px]">
+                <iframe
+                  src="https://app.ston.fi/swap?chartVisible=false&ft=TON&tt=EQD61XZ5b6JGiFK4LIuuGK9ZXTJCSdBgeKEn6xbqReDBQUFL"
+                  height="660"
+                  width="100%"
+                  style={{
+                    border: 0,
+                    margin: '0 auto',
+                    display: 'block',
+                    borderRadius: '10px',
+                  }}
+                />
+              </div>
+            </div>
+          </div>*/}
+
           <div className="mb-36">
             <LanguageSelector />
           </div>
@@ -504,13 +529,15 @@ export default function LandingPage() {
 
           {/* New "Learn More" button below FAQ section */}
           <div className="flex flex-col items-center mb-36">
-            <CountdownTimer />
+            <p className="text-yellow-400 text-2xl font-bold">
+            مجتمع الفــاضـــاد x حصري لملاك عملة AX فقط .. اذا كنت منهم ، قم بربط محفظتك عن طريق بوت التيليجرام
+            </p>
             <div className="mt-8">
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="bg-transparent text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
-                onClick={() => window.open('https://www.alphadhad.com/buyax/', '_blank')}
+                className="bg-[#008000] text-white border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
+                onClick={() => window.open('https://t.me/Alphadhad_X_Token_bot', '_blank')}
               >
                 {content.hero.cta}
               </Button>
