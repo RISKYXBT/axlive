@@ -544,15 +544,7 @@ export default function LandingPage() {
           </div>
         </main>
       </div>
-      <footer className="container mx-auto px-4 py-6 flex flex-col items-center relative z-10 text-gray-400">
-        <Link 
-          href="https://www.alphadhad.com/disclaimer" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="text-gray-400 underline mb-4 hover:text-white"
-        >
-          Disclaimer
-        </Link>
+      <footer className="container mx-auto px-4 py-6 flex flex-col items-center relative z-10 text-gray-400 ltr">
         <div className="flex justify-center gap-6">
           <Link href="https://x.com/alphadhad" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             <FaXTwitter className="w-5 h-5 sm:w-6 sm:h-6" />
