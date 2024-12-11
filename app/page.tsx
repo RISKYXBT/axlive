@@ -403,7 +403,24 @@ export default function LandingPage() {
             </div>
           </div>
 
-          {/* Block 2 (modified with iframe) */}
+          {/* Block 1a (duplicate of Block 1) */}
+          <div className="flex flex-col items-center mb-36">
+            <div className="flex flex-col items-center">
+              <p className="text-white-400 text-2xl font-bold mb-8">
+                اذا كنت لا تمتلك عملة AX وترغب بالانضمام .. يمكنك ذلك عن طريق استخدام طريقة الدفع العادية
+              </p>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="bg-[#38B6FF] text-black border-2 border-white rounded-none hover:bg-[#FFC500] hover:text-black hover:border-[#FFC500]"
+                onClick={() => window.open('https://salla.sa/alphadhad', '_blank')}
+              >
+                اضغط هنا للذهاب لبوابة الدفع
+              </Button>
+            </div>
+          </div>
+
+          {/* Block 2 */}
           <div className="flex flex-col items-center mb-36">
             <div className="flex flex-col items-center">
               <p className="text-white text-2xl font-bold mb-8">
